@@ -1,0 +1,196 @@
+/* --- General/Reset Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Global Styles for Dark Theme --- */
+body {
+    background-color: #1c1c1c; /* Dark Grey/Black background */
+    color: #f0f0f0; /* Light text for readability */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.content-section {
+    padding: 40px 0;
+}
+
+/* Ensure headings use the highlight color */
+h1, h2 {
+    color: #FFD700; /* Gold/Yellow highlight for headings */
+    margin-bottom: 15px;
+}
+
+/* Horizontal rule separator */
+hr {
+    border: 0;
+    border-top: 1px solid #333; /* Light grey line */
+    margin: 40px 0;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: #0d0d0d; /* Slightly darker header */
+    border-bottom: 2px solid #FFD700;
+    padding: 10px 0;
+}
+
+.header-logo {
+    height: 50px; /* Adjust as needed */
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #FFD700;
+}
+
+/* --- Hero Section --- */
+#hero {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #2a2a2a; /* Slightly darker than body for contrast */
+}
+
+/* --- Buttons --- */
+.button.primary {
+    background-color: #CC0000; /* Red color for primary action */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button.primary:hover {
+    background-color: #a00000; /* Darker red on hover */
+}
+
+/* --- Service Dropdown Styles (index.html) --- */
+.service-list-summary {
+    font-weight: bold;
+    color: #FFD700; /* Gold/Yellow for highlighting the service titles */
+    cursor: pointer;
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid #333;
+}
+.service-details {
+    padding: 10px 15px 15px;
+    background-color: #2a2a2a; /* Slightly lighter background for the details section */
+    margin-left: 10px;
+}
+
+/* --- Founder Section Styles (index.html) --- */
+.founder-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 30px;
+    margin-top: 30px;
+}
+.founder-card {
+    text-align: center;
+    max-width: 250px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+}
+.founder-photo {
+    width: 150px; /* Smaller photo size */
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 50%; /* Circular photo */
+    margin-bottom: 15px;
+    border: 3px solid #FFD700;
+}
+.founder-name-big {
+    font-size: 1.2em; /* Bigger font for name */
+    font-weight: bold;
+    color: #f0f0f0;
+    display: block; 
+    margin-bottom: 5px;
+}
+.founder-role {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* --- Form Styles (contact.html) --- */
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2a2a2a; 
+    border-radius: 8px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333; 
+    border: 1px solid #555;
+    color: #f0f0f0; 
+    border-radius: 4px;
+}
+#contact-form textarea {
+    resize: vertical;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+}
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+/* --- Form Styles (contact.html) --- */
+/* ... (existing styles) ... */
+
+/* Style for the image inside the contact section */
+.contact-form-image {
+    width: 100%;
+    max-width: 600px; /* Limits size to the width of the form */
+    display: block;
+    margin: 0 auto 30px auto; /* Centers the image and adds space below */
+    border-radius: 8px;
+    border: 2px solid #FFD700; /* Yellow border to fit the theme */
+    height: auto;
+}
+/* ... (remaining styles) ... */
